@@ -1,0 +1,9 @@
+MANUAL DE USO DEL PROGRAMA SBR-FC
+Su forma de ejecución es: sbrfc.exe [BC] [BH] 
+Y cualquier otra forma dará error, incluso si los ficheros introducidos son incorrectos.
+
+El formato de los ficheros de entrada "BC" y "BH" deben de ser ficheros de texto con la base de conocimientos y la base de hechos en ellos, respectivamente.
+Un buen ejemplo sería el siguiente: sbrfc.exe BaseDeConocimientos.txt BaseDeHechos.txt
+
+Tras la ejecución correcta, se creará un archivo cuyo nombre será la combinación de ambos ficheros de texto de entrada, y contendrá el proceso de inferencia, es decir, el proceso que se ha ido siguiendo para la combinación de evidencias y la credibilidad de cada una para alcanzar el objetivo establecido en la base de hechos. 
+Hasta llegar al final en el que se obtendrá la credibilidad de que suceda el objetivo anteriormente mencionado.
